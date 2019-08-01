@@ -1,0 +1,104 @@
+header{
+    color: white;
+    background-color: #333;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+body {
+    background-image: url("./dark-honeycomb.png");
+    height: 960px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.main-body{
+  float:left;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left:25px;
+  padding-right: 25px;
+  /* position: center; */
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+.side-body{
+  float:right;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left:25px;
+  padding-right: 25px;
+  /* position: right; */
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+li, p, ul, form, h2, h4 {
+    color: white;
+}
+
+.nav-link {
+  float: right;
+}
+
+h1 {
+    float: left;
+    color: white;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+  }
+
+  h3 {
+    color: white;
+    text-align: center;
+  }
+/* 
+  .navbar{
+    
+  } */
